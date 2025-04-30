@@ -39,6 +39,10 @@ Imagine reading this sentence:
 
 “The mango I ate yesterday was sweet.”
 
+
+
+A Transformer is a model designed to handle sequential data (like text) without using RNNs or CNNs. It uses a mechanism called self-attention to weigh the importance of different words in a sentence, regardless of their position.
+
 To understand what was sweet, your brain knows it refers to mango — even though “mango” is far from “sweet”.
 
 That’s what attention does: It lets the model focus on important words, no matter how far apart they are.
